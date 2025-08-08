@@ -6,3 +6,7 @@
     "id": 1,
     "name": "Abc"
 }'
+# Description:
+   1. source: It's a Producer. It'll send event into Queue
+   2. processor: It's Consumer & Producer both. It'll consume data from Queue and then send back event into Queue again.
+   3. sink: It's a Consumer. It'll consume data from Queue.
